@@ -13,7 +13,7 @@ const useDarkMode = (initialValue) => {
     }
   }, [storedValue]);
 
-  return [storedValue, setStoredValue];
+  return [storedValue, setValue];
 }
 
 export default useDarkMode;
